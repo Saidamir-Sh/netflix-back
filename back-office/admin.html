@@ -15,7 +15,7 @@
       <main>
           <section class="container-fluid">
               <div class="row">
-                  <div id="movie-list" class="col-4 vh-100">
+                  <div class="col-4 vh-100">
                       <div>
                         <h5 class="font-weight-bold text-uppercase text-center py-3 text-primary">Choose category</h5>
                         <select id="genre-list" class="form-control" required>
@@ -27,21 +27,8 @@
                             <option value="action">Action</option>
                         </select>
                       </div>
-                    <ul class="list-group list-group-flush mt-4">
-                        <li class="list-group-item d-flex justify-content-between align-items">
-                            <div style="line-height: 5px;">
-                                <p class="font-weight-bold">Movie name</p>
-                                <small class="text-muted font-weight-bold">genre</small>
-                            </div>
-                            <div>
-                                <i id="editIcon" class="text-success bi bi-pencil-square mr-4" style="cursor: pointer;"></i>
-                                <i id="deleteIcon" class="text-danger bi bi-trash-fill" style="cursor: pointer;"></i>
-                            </div>
-                        </li>
-                        <li class="list-group-item">A second item</li>
-                        <li class="list-group-item">A third item</li>
-                        <li class="list-group-item">A fourth item</li>
-                        <li class="list-group-item">And a fifth one</li>
+                    <ul id="movie-list" class="list-group list-group-flush mt-4">
+
                       </ul>
                   </div>
                   <div  class="col-8 vh-100">
