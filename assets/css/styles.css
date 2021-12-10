@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+
+body {
+  background-color: #141414;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* CAROUSEL BTNS OVERRIDES */
+.carousel-control-next,
+.carousel-control-prev {
+  width: 15px;
+}
+
+.carousel-control-prev {
+  left: -15px;
+}
+
+.carousel-control-next {
+  right: -15px;
+}
+
+.mx-n05 {
+  margin-left: -2px;
+  margin-right: -2px;
+}
+
+.px-05 {
+  padding-left: 2px;
+  padding-right: 2px;
+}
+
+.d-inline-block-middle {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.navbar {
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.navbar-brand {
+  position: relative;
+  left: -8px;
+}
+
+.last-items {
+  color: white;
+}
+
+.last-items span {
+  color: rgb(255 255 255 / 0.5);
+  padding-right: 0.5rem;
+  padding-left: 0.5rem;
+}
+
+.last-items .bi {
+  font-size: 1rem;
+}
+
+.first-section h1 {
+  letter-spacing: -1px;
+}
+
+.first-section .icon-elem {
+  border: 2px solid #6c757d;
+  min-height: 40px;
+  padding: 6px 10px;
+  border-radius: 3px;
+}
+
+@media (max-width: 575px) {
+  .first-section h1 {
+    font-size: 24px;
+  }
+}
+
+.genres-btn {
+  background-color: black;
+  border-radius: 3px;
+  border-width: 2px;
+}
+
+@media (min-width: 576px) {
+  .header-icons {
+    position: absolute;
+    right: 0;
+  }
+}
+
+footer .bi {
+  font-size: 1.4rem;
+  margin-right: 1rem;
+}
+
+footer ul li {
+  margin-bottom: 0.5rem;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+/* .myInputField::placeholder {
+
+} */
